@@ -45,13 +45,12 @@ import time  # TODO: Notion 테스트용, 테스트후 삭제
 
 ##@@ Installed Modules
 ##------------------------------------------------------------
-from mp_util.util_basic import (_write_file, _read_file, _get_value_nested, _set_value_nested, _get_path_nested, _get_path_nested_by_key, _insert_join)
+from on_builtin.util_data import (_write_file, _read_file, _get_value_nested, _set_value_nested, _get_path_nested, _get_path_nested_by_key, _insert_join)
 
 
 ##@@ Custom Modules
 ##------------------------------------------------------------
-sys.path.append(os.path.join(os.path.dirname(__file__), "../on_notion"))
-from notion_api import Notion
+from on_cloud.notion_api import Notion
 
 
 ##@@@ Declaration AREA

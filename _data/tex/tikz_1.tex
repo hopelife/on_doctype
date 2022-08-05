@@ -1,0 +1,11 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) -- (1,1);
+\draw (0,0) rectangle (2,1);
+\draw (0,0) circle [radius=0.5];
+\node at (0,0) {Some text};
+\draw (0,0) -- (120:2); %극좌표
+\end{tikzpicture}
+\end{document}

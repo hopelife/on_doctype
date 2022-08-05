@@ -62,12 +62,11 @@ import time  # TODO: Notion 테스트용, 테스트후 삭제
 ##@@ Installed Modules
 ##------------------------------------------------------------
 # import regex
-from mp_util.util_basic import (_write_file)  # TODO: Notion 테스트용, 테스트후 삭제
+from on_builtin.util_data import (_write_file)  # TODO: Notion 테스트용, 테스트후 삭제
 
 ##@@ Custom Modules
 ##------------------------------------------------------------
-sys.path.append(os.path.join(os.path.dirname(__file__), "../on_notion"))
-from notion_act import Notion  # TODO: Notion 테스트용, 테스트후 삭제
+from on_cloud.notion_act import Notion  # TODO: Notion 테스트용, 테스트후 삭제
 
 ##@@@ Declaration AREA
 ##============================================================
